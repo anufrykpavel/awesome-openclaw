@@ -15,6 +15,9 @@
 - [Memory & Context](#memory--context)
 - [Tips & Tricks](#tips--tricks)
 - [Memory & Context](#memory--context)
+- [Security](#security)
+- [Examples](#examples)
+- [Troubleshooting](#troubleshooting)
 - [Resources](#resources)
 
 ---
@@ -208,6 +211,28 @@ workspace/
 ```
 
 [Подробнее →](./memory/context.md)
+
+---
+
+## Security
+
+[Security best practices](./security/best-practices.md) — токены, keyring, leak response.
+
+---
+
+## Examples
+
+| Example | Description |
+|---------|-------------|
+| [Daily Check](./examples/daily-check.md) | Email + Calendar + Weather heartbeat |
+| [GitHub Automation](./examples/github-automation.md) | Создание репозитория и настройка |
+| [Batch Processing](./examples/batch-processing.md) | Subagent для обработки файлов |
+
+---
+
+## Troubleshooting
+
+[Common issues and solutions](./troubleshooting.md) — типичные ошибки и fixes.
 
 ---
 
