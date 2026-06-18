@@ -14,6 +14,7 @@
 - [Subagents](#subagents)
 - [Memory & Context](#memory--context)
 - [Tips & Tricks](#tips--tricks)
+- [Memory & Context](#memory--context)
 - [Resources](#resources)
 
 ---
@@ -187,6 +188,26 @@ echo "## $(date +%Y-%m-%d)" >> memory/$(date +%Y-%m-%d).md
 - Batch external API calls
 - Используй `sessions_yield` вместо поллинга
 - Читай SKILL.md перед использованием нового skill
+
+---
+
+## Memory & Context
+
+OpenClaw сохраняет память между сессиями через файлы:
+
+```
+workspace/
+├── MEMORY.md           # Долгосрочная память
+├── memory/
+│   ├── 2026-06-18.md   # Ежедневные заметки
+│   └── 2026-06-19.md
+├── AGENTS.md           # Конфигурация
+├── SOUL.md             # Личность
+├── USER.md             # О пользователе
+└── TOOLS.md            # Заметки об инструментах
+```
+
+[Подробнее →](./memory/context.md)
 
 ---
 
